@@ -9,11 +9,23 @@ public class Q02 {
         // verilen int lerden ilki haric tum sayilari toplayan ve
         // buldugunuz toplam ile ilk sayiyi carpip sonucu yazdiriniz.
 
+        int sayi1 = 3;
+        int sayi2 = 7;
+        int sayi3 = 6;
+        int sayi4 = 5;
 
+topla(sayi1,sayi2,sayi3,sayi4);
     }
 
-    public static void topla(int carpilacakSayi, int... toplanacakSayilar) {
+    private static void topla(int sayi1, int...yeni) {
+    int toplam=0;
 
-
+        for (int each:yeni){
+        toplam+=each;
     }
+        System.out.println("toplam "+toplam);
+        System.out.println("carpim " + sayi1*toplam);
+    }
+
+
 }
