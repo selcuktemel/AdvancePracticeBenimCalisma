@@ -18,7 +18,7 @@ public class Q01 {
 		// Soru-2 : Pazartesi kelimesini her harfini ayrı bir satira gelecek sekilde yazdırınız.
 
 		System.out.println("P\na\nz\na\nr\nt\ne\ns\ni");
-		//Soru-3 : "Java" ile hayat cok 'afilli'   yazdırınız
+		//Soru-3 : "Java" ile hayat cok 'afilli'   yazdırınızz
 		System.out.println("\"Java\" ile hayat cok \'afilli\'");
 
 		//Soru-4 : "Basari" gayrete
