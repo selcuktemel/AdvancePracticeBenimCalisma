@@ -9,16 +9,16 @@ public class User {
     protected int ıd;
     protected String username;
     protected String password;
-    protected boolean active;
-    protected boolean signedIn;
+    protected boolean active=true;
+    protected boolean signedIn=false;
 
 //bütün fieldları parametre alan bir constructor tanımlayınız.
     public User(int ıd, String username, String password, boolean active, boolean sidnerIn) {
         this.ıd = ıd;
         this.username = username;
         this.password = password;
-        this.active = true;
-        this.signedIn = false;
+        this.active =active;
+        this.signedIn=signedIn;
     }
 
     public User() {

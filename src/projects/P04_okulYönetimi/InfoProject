@@ -1,4 +1,4 @@
-----------Öğrenci Not Sistemi-----------
+---------Öğrenci Not Sistemi-----------
 
 ----------Course Class Özellikleri :
 
@@ -7,7 +7,7 @@ Methods : Course() , addTeacher() , printTeacher()
 
 ----------Teacher Class Özellikleri :
 
-fields : name,mpno,branch
+fields : name,branch
 Methods : Teacher()
 
 ----------Student Class Özellikleri :
@@ -15,10 +15,9 @@ Methods : Teacher()
 fields : name,stuNo,classes,course1,course2,course3,avarage,isPass
 Methods : Student(), addBulkExamNote(), isPass(), calcAvarage(), printNote()
 
-
 -----------TASK
 Course class'ında derse ait sözlü notu kısmını girin ve ortalamaya etkisini
-her ders için ayrı ayrı belirtin. Sözlü notlarınıda ortalamaya etkileme
+her ders için ayrı ayrı belirtin. Sözlü notların ıda ortalamaya etkileme
 yüzdesi ile dahil edin.
 
 Örnek : Fizik dersine ait sözlü notunun ortalamaya etkisi %20 ise
@@ -28,3 +27,25 @@ sınav notunun etkisi %80'dir.
 genel ortalamaya etkisi şu şekilde hesaplanır :
 
 Fizik Ortalaması : (90 * 0.20) + (60* 0.80);
+
+extra paylasim
+
+Course class veriable'ları...
+Teacher teacher;  -->Teacher class'tan teacher obj
+String name;
+String prefix;
+int noteYazili;
+int noteSozlu;
+
+Student class veriable'ları...
+Course mat;  --> Cours claess'tan mat obj
+Course tur;  --> Course class'tan tur obj
+Course bio;  --> Course class'tan bio obj
+double Avarage;
+String name;
+String stuNo;
+String classes;
+
+Teacher class veriable'ları..
+String name;
+String branch;

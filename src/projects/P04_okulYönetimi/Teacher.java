@@ -1,24 +1,25 @@
 package projects.P04_okulYönetimi;
 
-public class Teacher {
+public class Teacher  extends  Course{
     String name;
-    int mpno;
     String branch;
-    Teacher(){
+
+    Teacher() {
 
     }
 
-    public Teacher(String name, int mpno, String branch) {
+    public Teacher(String name, String branch) {
         this.name = name;
-        this.mpno = mpno;
         this.branch = branch;
     }
+
+
+
 
     @Override
     public String toString() {
         return "Teacher{" +
                 "name='" + name + '\'' +
-                ", mpno='" + mpno + '\'' +
                 ", branch='" + branch + '\'' +
                 '}';
     }

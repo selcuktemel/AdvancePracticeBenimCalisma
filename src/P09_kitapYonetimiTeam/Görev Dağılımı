@@ -1,0 +1,49 @@
+
+KÜTÜPHANE YONETİM BİLGİ SİSTEMİ
+1. sistem 2 menü var birini yoneticiler kullanabiliyorlar diğerini ogrenciler
+2. K03_Main de iki secenek sunuluyor ve hangi platformda işlem yapmak istedikleri soruluyor
+   terhihe göre sifreli ve sifresiz olarak yaptım.
+    Yoneticiler sifresiz (sifre eklenebilir)
+    ogrenciler sifre ile giris yapıyorlar:
+3.  yonetici menüsünde neler var:
+   a.mevcutKitapListesi() kutuphanede bulunan 5 kitap tanımlandı ve listelendi.
+   b.girisPaneli() --> yonetici olarak gorev yapan personelin yapacagı işlemlerin listelediği panel
+       1-kitap ekle\n" +
+       2-numara ile kitap ara\n" +// Kutuphaneye gelen personelin istediği kitaplarin nerede oldugu KitapNo ile sorgulanacak
+       3-bilgi ile kitap ara\n" +/* kitap ismi ve yazar ile kitap sorgulancak*/
+       4-numara ile kitap sil\n" +// Kütüphanden gonderilen kitaplar kütüphane kaydından düsecektir.
+       5-tum kitaplari listele\n" +/* tüm islemler gerçeklestirildikten sonra kütüphande bulunan kitaplar listenecektir.*/
+       6-cikis");
+   c. kitapEkle()
+        küthaneye yeni eklenem kitaplar bu panel üzerinde eklencek mevcut son kitaptan itibaren numaranadırılacakir.
+   d.kitapNoileArama()
+       numara ile arama yapılmasını sağlayan panel(hem yonetici hem ogrenci kullancabilecek)
+   e.kitapBilgisiIleArama()
+       iki secenek sunulacak yazanAdi veya Kitap adi ile arama yapmak icin secim yapılabilecek (hem yonetici hem ogrenci kullancabilecek)
+   f.numaraileKitapSilme()
+       silme islemi sonrasinda mevcut listedeki siline kitap dusulecektir.
+   g.kitaplariListele()
+        üthaneye eklenen ya da küthaneyeden cıkarılan kitaplar soncundaki son durumu gösterecek
+   h.kutuphanedenCikis()
+4.  ogrenci menüsünde neler var:
+   a.ogrenciGirisPaneli()
+     adını soyadını, kimlik numarasını ve sifresini girerek sisteme giris sağlayabiliyor
+   b.islemSecimMenusu()
+     1-kitap atlma
+     2-kitap numarasi veya bilgi ile kitap ara  (Yonetimsel_Islemler Clasından kullandım )
+     3-tum kitaplari listele (methostsuz case icinde çalıstım)
+     4-ogrenci kitap bagısı yapmak isterse aptıgı bağısı kutuphane sistemine ekleyen yeni bir List'e ekeledim.
+     5- çıkıs (Yonetimsel_Islemler Clasından kullandım )
+   c.kitapBagisi()
+     ogrenci kitap bagısı yapmak isterse aptıgı bağısı kutuphane sistemine ekleyen yeni bir List'e ekeledim.
+   d.kitaoAlma()
+     2'den fazla kitap alamacak sekilde yaptım
+   e.kitapBilgisiIleArama() (Yonetimsel_Islemler Clasından kullandım )
+   f.kitapBilgisiIleArama() (Yonetimsel_Islemler Clasından kullandım )
+   g.kitaplari methotsuz olarak listedim
+     ister mevcut kitaplari isterse aldıgı kitaplari listeleyebilir.
+   h.kutuphanedenCikis() (Yonetimsel_Islemler Clasından kullandım )
+
+
+
+
